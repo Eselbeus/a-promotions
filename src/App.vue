@@ -33,7 +33,4 @@ export default {
   margin-top: 60px;
 }
 
-img {
-  width: 400px;
-}
 </style>

@@ -51,6 +51,6 @@ a {
   color: #42b983;
 }
 img {
-  width: 360px;
+  width: 340px;
 }
 </style>

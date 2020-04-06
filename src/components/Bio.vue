@@ -9,9 +9,6 @@
 
 </template>
 
-
-
-
 <script>
 export default {
   name: 'Bio',
@@ -19,8 +16,9 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 img {
-  width: 360px;
+  width: 340px;
 }
 </style>
