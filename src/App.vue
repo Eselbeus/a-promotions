@@ -2,7 +2,7 @@
   <div id="app">
   <h1>Alissa Aikio Promotions</h1>
     <Nav />
-    <router-view></router-view>
+    <router-view><Home /><Bio /><Contact /></router-view>
   </div>
 </template>
 
