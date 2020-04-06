@@ -21,6 +21,6 @@ export default {
 </script>
 <style scoped>
 img {
-  width: 400px;
+  width: 360px;
 }
 </style>

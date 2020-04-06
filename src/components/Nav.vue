@@ -29,9 +29,13 @@ nav {
 }
 
 .nav-item {
-  background: #AAAAAA;
+  background: #CCCCCC;
   text-decoration: none;
   padding: 1rem;
-  color: #668888;
+  color: #779999;
+}
+
+.nav-item:hover {
+  color: #557777;
 }
 </style>

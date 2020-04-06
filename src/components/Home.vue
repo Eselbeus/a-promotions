@@ -31,6 +31,7 @@ export default {
   #root {
     background: #EEEEEE;
   }
+
 </style>
 
 <style scoped>
@@ -50,6 +51,6 @@ a {
   color: #42b983;
 }
 img {
-  width: 400px;
+  width: 360px;
 }
 </style>
