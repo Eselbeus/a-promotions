@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Alissa Aikio Promotions</h1>
+    <Nav />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
+import Bio from './components/Bio.vue'
+import Nav from './components/Nav.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home,
+    Bio,
+    Nav,
+    Contact
   }
 }
 </script>
@@ -24,5 +31,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  width: 400px;
 }
 </style>
