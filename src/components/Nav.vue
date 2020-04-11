@@ -16,20 +16,21 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
+  $backgroundColor: #CCCCCC;
 
-nav {
-  padding: 1rem;
-}
+  nav {
+    padding: 1rem;
+  }
 
-.nav-item {
-  background: #CCCCCC;
-  text-decoration: none;
-  padding: 1rem;
-  color: #779999;
-}
+  .nav-item {
+    background: $backgroundColor;
+    text-decoration: none;
+    padding: 1rem;
+    color: #779999;
+  }
 
-.nav-item:hover {
-  color: #557777;
-}
+  .nav-item:hover {
+    color: #557777;
+  }
 </style>
